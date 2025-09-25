@@ -1,6 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import CarAI from '../components/CarAI'
 
-const App = () => <div>Hello CarAI!</div>;
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+export default function Home() {
+  return (
+    <div>
+      <CarAI />
+    </div>
+  )
+}
